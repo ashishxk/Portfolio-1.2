@@ -15,10 +15,19 @@
   padding: 10% 5% 5% 5%;
 }
 
+.container2{
+  position: relative;
+  padding-top: 5%;
+}
+
 @media screen and (max-width: 580px) {
   .container{
     position: relative;
     padding: 30% 5% 0% 5%;
+  }
+  .container2{
+    position: relative;
+    padding: 5% 5% 0% 5%;
   }
 }
 
@@ -233,7 +242,7 @@
   .glow-on-hover{
     width: 7.5rem;
     height: 2.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -287,7 +296,7 @@
 }
 
 #about #prof-pic{
-  border: 4.5px solid #922ffc;
+  border: 3.5px solid #922ffc;
 }
 
 @media screen and (max-width: 580px) {
@@ -297,20 +306,20 @@
   }
 }
 
-#about h5{
-  color: #7738c8;
+.subhead{
+  color: #fafafa;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.head{
+  color: #922ffc;
   font-weight: 700;
   padding: 6.5rem 0% 0% 0%;
   font-family: 'Poppins',sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-}
-
-#about h1{
-  color: #fafafa;
-  font-family: 'Poppins',sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
 }
 
 #about h2{
@@ -345,19 +354,13 @@
 }
 
 #about #ab{
-  border: 4.5px solid #922ffc;
+  border: 3.5px solid #922ffc;
   padding: 2%;
 }
 
 
 @media screen and (max-width: 580px) {
-  #about h5{
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  #about h1{
+  .subhead{
     font-size: 1.5rem;
   }
 }
@@ -373,14 +376,15 @@
 @media screen and (max-width: 580px) {
   #about #ab strong{
     font-size: 1rem;
+    text-align: justify;
   }
 }
 
 @media screen and (max-width: 580px) {
   #about #ab p{
     font-size: 1rem;
-    text-align: left;
-    letter-spacing: 0.05rem;
+    text-align: justify;
+    letter-spacing: 0.01rem;
   }
 }
 
@@ -388,6 +392,7 @@
   #about #ab span{
     font-size: 1rem;
     letter-spacing: 0.1rem;
+    text-align: justify;
   }
 }
 
@@ -412,14 +417,6 @@
   position: relative;
 }
 
-#skills h5{
-  color: #922ffc;
-  font-weight: 700;
-  padding: 9% 0% 0% 0%;
-  font-family: 'Poppins',sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-}
 
 #skills h1{
   color: #fafafa;
