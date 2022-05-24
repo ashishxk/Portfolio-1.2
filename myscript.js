@@ -17,17 +17,3 @@ function myFunction() {
 }
 
 
-window.onmouseover=function move() {
-  var elem = document.getElementsByClassName("myBar1");   
-  var width = 20;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 80) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-      elem.innerHTML = width * 1  + '%';
-    }
-  }
-}
