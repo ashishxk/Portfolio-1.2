@@ -10,11 +10,16 @@
 
 /* NAVBAR */
 
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container{
+  position: relative;
+  padding: 10% 5% 5% 5%;
+}
+
+@media screen and (max-width: 580px) {
+  .container{
+    position: relative;
+    padding: 30% 5% 0% 5%;
+  }
 }
 
 #navbar {
@@ -79,7 +84,7 @@
     float: none;
     display: block;
     text-align: left;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   #navbar #logo{
@@ -133,21 +138,23 @@
 
 @media screen and (max-width: 580px){
   #home h5{
-    font-size: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
   } 
 }
 
 @media screen and (max-width: 580px){
   #home h1{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: 0.2rem;
   } 
 }
 
 @media screen and (max-width: 580px){
   #home p{
-    font-size: 0.5rem;
-    letter-spacing: 0.1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
   } 
 }
 
@@ -224,8 +231,8 @@
 
 @media screen and (max-width: 580px) {
   .glow-on-hover{
-    width: 6.5rem;
-    height: 2rem;
+    width: 7.5rem;
+    height: 2.5rem;
     font-size: 1rem;
   }
 }
@@ -266,8 +273,8 @@
 
 @media screen and (max-width: 580px) {
   .icon-bar a{
-    font-size: 1rem;
-    letter-spacing: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
   }
 }
 
@@ -285,8 +292,8 @@
 
 @media screen and (max-width: 580px) {
   #about #prof-pic{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 }
 
