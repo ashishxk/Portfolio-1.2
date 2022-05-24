@@ -321,7 +321,7 @@
 .head{
   color: #922ffc;
   font-weight: 700;
-  padding: 6.5rem 0% 0% 0%;
+  padding: 7% 0% 0% 0%;
   font-family: 'Poppins',sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -335,6 +335,9 @@
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
 }
 
 #about #ab strong{
