@@ -411,10 +411,9 @@
 
 #skills a{
   color: #922ffc;
-  font-size: 2rem;
-  text-align: left;
+  font-size: 3.5rem;
+  text-align: center;
   transition: all 0.2s ease;
-  padding-left: 25%;
   text-decoration: none;
 }
 
@@ -424,71 +423,6 @@
 
 #skills ul{
   list-style-type: none;
-}
-
-
-#myBar1{
-  width: 80%;
-}
-
-#myBar1 strong{
-  color: white;
-}
-
-#myBar2{
-  width: 75%;
-}
-
-#myBar2 strong{
-  color: white;
-}
-
-#myBar3{
-  width: 55%;
-}
-
-#myBar3 strong{
-  color: white;
-}
-
-#myBar4{
-  width: 40%;
-}
-
-#myBar4 strong{
-  color: white;
-}
-
-#myBar5{
-  width: 85%;
-}
-
-#myBar5 strong{
-  color: white;
-}
-
-#myBar6{
-  width: 78%;
-}
-
-#myBar6 strong{
-  color: white;
-}
-
-#myBar7{
-  width: 20%;
-}
-
-#myBar7 strong{
-  color: white;
-}
-
-#myBar8{
-  width: 45%;
-}
-
-#myBar8 strong{
-  color: white;
 }
 
 
