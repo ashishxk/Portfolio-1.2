@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@400;500;600;700&family=Koulen&family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap');
 
+:root{
+  --first-color: #922ffc;
+  --second-color: #dadada;
+  --third-color: white;
+}
+
+:root{
+  --mb-2: 1rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+:root{
+  --z-front: 10;
+  --z-fixed: 100;
+}
+
 
 #home{
   width: 100%;
@@ -421,10 +439,77 @@
   color: #eeeeee;
 }
 
-#skills ul{
-  list-style-type: none;
+
+.skills__container {
+  row-gap: 2rem;
+  text-align: center;
 }
 
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.skills__text {
+  margin-bottom: var(--mb-4);
+}
+
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+}
+
+.skills__icon {
+  font-size: 3.5rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--first-color);
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-front);
+}
+
+.skills__html {
+  width: 95%;
+}
+
+.skills__css {
+  width: 85%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__php {
+  width: 85%;
+}
+
+.skills__percentage{
+  color: var(--third-color);
+}
+
+.skills__img {
+  border-radius: .5rem;
+}
 
 #footer{
   color: #922ffc;
