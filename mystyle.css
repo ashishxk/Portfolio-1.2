@@ -213,7 +213,7 @@
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #8000ff , #850bff, #8f1fff, #9834fc, #9e43fa,  #9737f8, #8f26ff, #850bff, #8000ff);
+  background: linear-gradient(35deg, #8000ff , #850bff, #8f1fff, #9b37ff,  #a041ff, #a347ff, #a449ff, #a347ff,  #9e3dff, #8f26ff, #850bff, #8000ff);
   position: absolute;
   top: -2px;
   left:-2px;
